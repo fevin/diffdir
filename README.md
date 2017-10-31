@@ -29,3 +29,7 @@ Command: `diffdir dir1 dir2`
 ➜  test-fir-diff-dir git:(master) ✗ diffdir ./dir1 ./dir2
 # vimdiff 界面
 ```
+如果文件夹下有多文件差异，只需在 `vim` 的命令模式下，键入 `qa` 即可进入下一对文件对比结果界面。
+
+## TODO
+- [ ] 支持传入操作参数，eg. 过滤文件
